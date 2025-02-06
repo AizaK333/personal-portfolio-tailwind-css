@@ -105,6 +105,7 @@
 
 
 'use client'
+import React from "react";
 import { useRef } from 'react';
 import { FaHtml5, FaCss3Alt, FaJs, FaNodeJs, FaFigma, FaGitAlt } from 'react-icons/fa';
 import { SiTypescript, SiNextdotjs } from 'react-icons/si';
@@ -172,6 +173,9 @@ const SkillsSection: React.FC = () => {
     </div>
   );
 };
+
+
+import { JSX } from "react";
 
 interface SkillCardProps {
   icon: JSX.Element;
